@@ -7,7 +7,7 @@ namespace EjemploIterator
       where TElemento : Elemento
     {
         public string palabraClaveConsulta { protected get; set; }
-        protected int indice;
+        protected int indice; 
         public IList<TElemento> contenido { protected get; set; }
 
 
