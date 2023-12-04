@@ -7,8 +7,7 @@ namespace EjemploIterator
         where TElemento : Elemento
         where TIterador : Iterador<TElemento>, new()
     {
-        protected IList<TElemento> contenido =
-          new List<TElemento>();
+        protected IList<TElemento> contenido = new List<TElemento>();
 
         public TIterador busqueda(string palabraClaveConsulta)
         {

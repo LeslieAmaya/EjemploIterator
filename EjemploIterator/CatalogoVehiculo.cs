@@ -12,9 +12,9 @@ namespace EjemploIterator
 
         public CatalogoVehiculo()
         {
-            contenido.Add(new Vehiculo("vehículo económino"));
-            contenido.Add(new Vehiculo("pequeño vehículo económico"));
-            contenido.Add(new Vehiculo("vehículo de gran calidad"));
+            contenido.Add(new Vehiculo("vehiculo economico"));
+            contenido.Add(new Vehiculo("pequeño vehiculo economico"));
+            contenido.Add(new Vehiculo("vehoculo de gran calidad"));
         }
     }
 

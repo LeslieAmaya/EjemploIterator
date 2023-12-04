@@ -12,7 +12,7 @@ namespace EjemploIterator
         static void Main(string[] args)
         {
             CatalogoVehiculo catalogo = new CatalogoVehiculo();
-            IteradorVehiculo iterador = catalogo.busqueda("económico");
+            IteradorVehiculo iterador = catalogo.busqueda("economico");
             Vehiculo vehiculo;
             iterador.inicio();
             vehiculo = iterador.item();
